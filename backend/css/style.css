@@ -1,0 +1,32 @@
+.status-card{
+    text-align: center;
+}
+.block-actions-table{
+    display: flex;
+}
+.block-actions-table > form{
+    margin-right: 10px;
+}
+.question{
+    margin-bottom: 15px;
+}
+.answers{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.34);
+}
+.add-answer{
+    cursor: pointer;
+}
+.add-question{
+    padding: 7px 10px;
+    background: #eaecf4;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #d1d3e2;
+    width: max-content;
+}
+.answers > div{
+    margin-bottom: 7px;
+}
