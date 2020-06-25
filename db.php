@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('localhost', 'root', '', 'ekz');
+$db = mysqli_connect('localhost', 'std-966', '123456789', 'ekz');
 
 if ($db == false){
     print_r("Ошибка: Невозможно подключиться к MySQL " . mysqli_connect_error());
